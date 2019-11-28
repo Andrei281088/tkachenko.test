@@ -11,11 +11,14 @@ public class MyFirstProgram {
 		//r.a= 12;
 		//r.b = 8;
 		System.out.println("Square is - " + r.sq());
+
 	}
 
 	public static void hello(String name){
 		System.out.println("Hello, " + name + "!");
+
 	}
+
 
 
 

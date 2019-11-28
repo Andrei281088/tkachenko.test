@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/gradle-dependency-management-plugin-0.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/testng-7.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gradle-msbuild-plugin-1.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/platform-3.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gradle-dependency-management-plugin-0.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.75.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bsh-2.0b5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/platform-3.5.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.78-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gradle-msbuild-plugin-1.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.75-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gradle-msbuild-plugin-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.78-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.75-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/platform-3.5.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.72-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bsh-2.0b5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/testng-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jna-3.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.72-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gradle-dependency-management-plugin-0.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommander-1.78.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jna-3.5.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bsh-2.0b5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/testng-7.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jna-3.5.0-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

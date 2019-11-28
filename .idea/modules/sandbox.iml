@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="sandbox" external.linked.project.path="$MODULE_DIR$/../../sandbox" external.root.project.path="$MODULE_DIR$/../../sandbox" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../sandbox">
-      <sourceFolder url="file://$MODULE_DIR$/../../sandbox/src/test" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../sandbox/src/main/java" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/../../sandbox/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../sandbox/build" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../sandbox" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="gradle-wrapper" level="project" />
+    <orderEntry type="library" name="sandbox" level="project" />
   </component>
 </module>

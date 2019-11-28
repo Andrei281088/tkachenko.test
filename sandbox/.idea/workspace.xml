@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad630eb-e746-407d-b9d1-108d3cf9faa7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java" afterDir="false" />
-    </list>
+    <list default="true" id="8ad630eb-e746-407d-b9d1-108d3cf9faa7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,14 +42,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Addressbook.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java">
+      <file leaf-file-name="GroupDelitionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/GroupDelitionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="561">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestGroupCreation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/TestGroupCreation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="method#setUp#0;class#Addressbook#0" />
                 <element signature="method#login#0;class#Addressbook#0" />
+                <element signature="method#fillGroupForm#0;class#Addressbook#0" />
                 <element signature="e#1856#1857#0" expanded="true" />
                 <element signature="e#1932#1933#0" expanded="true" />
                 <element signature="e#1893#1894#0" expanded="true" />
@@ -61,15 +69,6 @@
                 <element signature="method#isAlertPresent#0;class#Addressbook#0" />
                 <element signature="method#closeAlertAndGetItsText#0;class#Addressbook#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/GroupData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -769,6 +768,8 @@
         <option value="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/GroupCreationTest.java" />
         <option value="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/GroupCreationTest2.java" />
         <option value="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java" />
+        <option value="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/TestGroupCreation.java" />
+        <option value="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/GroupDelitionTest.java" />
       </list>
     </option>
   </component>
@@ -781,7 +782,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="127" />
     <option name="y" value="51" />
     <option name="width" value="1004" />
@@ -946,7 +947,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
@@ -958,7 +959,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="nik.and" />
-      <option name="MAIN_CLASS_NAME" value="nik.and.TestGroupCreation" />
+      <option name="MAIN_CLASS_NAME" value="nik.and.GroupCreationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1088,12 +1089,12 @@
       <item itemvalue="TestNG.squareTests" />
       <item itemvalue="TestNG.GroupCreationTest" />
       <item itemvalue="TestNG.GroupCreationTest2" />
-      <item itemvalue="TestNG.TestGroupCreation" />
+      <item itemvalue="TestNG.GroupCreationTest" />
       <item itemvalue="TestNG.squareTests (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestGroupCreation" />
+        <item itemvalue="TestNG.GroupCreationTest" />
         <item itemvalue="TestNG.squareTests (1)" />
         <item itemvalue="TestNG.GroupCreationTest2" />
         <item itemvalue="TestNG.GroupCreationTest" />
@@ -1117,14 +1118,11 @@
       <workItem from="1574860658925" duration="2328000" />
       <workItem from="1574925759153" duration="178000" />
       <workItem from="1574950168752" duration="1277000" />
-      <workItem from="1574971896742" duration="3952000" />
+      <workItem from="1574971896742" duration="5570000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Addressbook - 2019.11.27 at 15h 48m 30s.xml">
-      <configuration name="Addressbook" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Addressbook - 2019.11.27 at 15h 51m 56s.xml">
       <configuration name="Addressbook" configurationId="TestNG" />
     </history-entry>
@@ -1152,9 +1150,12 @@
     <history-entry file="Addressbook - 2019.11.28 at 22h 37m 16s.xml">
       <configuration name="Addressbook" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestGroupCreation - 2019.11.28 at 23h 24m 08s.xml">
+      <configuration name="TestGroupCreation" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13186000" />
+    <option name="totallyTimeSpent" value="14804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1167,7 +1168,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1187,7 +1187,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952693" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952693" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28163266" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1211,7 +1211,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java</url>
+          <url>file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/TestGroupCreation.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -1221,13 +1221,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java">
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/TestGroupCreation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="method#setUp#0;class#Addressbook#0" />
             <element signature="method#login#0;class#Addressbook#0" />
+            <element signature="method#fillGroupForm#0;class#Addressbook#0" />
             <element signature="e#1856#1857#0" expanded="true" />
             <element signature="e#1932#1933#0" expanded="true" />
             <element signature="e#1893#1894#0" expanded="true" />
@@ -1240,13 +1241,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java">
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/TestGroupCreation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="method#setUp#0;class#Addressbook#0" />
             <element signature="method#login#0;class#Addressbook#0" />
+            <element signature="method#fillGroupForm#0;class#Addressbook#0" />
             <element signature="e#1856#1857#0" expanded="true" />
             <element signature="e#1932#1933#0" expanded="true" />
             <element signature="e#1893#1894#0" expanded="true" />
@@ -1259,7 +1261,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java">
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/TestGroupCreation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
@@ -1347,13 +1349,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/Addressbook.java">
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/GroupDelitionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state relative-caret-position="561">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/nik/and/TestGroupCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="method#setUp#0;class#Addressbook#0" />
             <element signature="method#login#0;class#Addressbook#0" />
+            <element signature="method#fillGroupForm#0;class#Addressbook#0" />
             <element signature="e#1856#1857#0" expanded="true" />
             <element signature="e#1932#1933#0" expanded="true" />
             <element signature="e#1893#1894#0" expanded="true" />

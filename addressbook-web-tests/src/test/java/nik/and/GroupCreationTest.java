@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.fail;
 
-public class TestGroupCreation {
+public class GroupCreationTest {
     private WebDriver driver;
     private String baseUrl;
     private boolean acceptNextAlert = true;

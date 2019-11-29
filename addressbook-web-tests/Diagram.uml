@@ -3,33 +3,59 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="86.99999999999999" y="0.0">nik.and.TestBase</node>
-    <node x="0.0" y="477.0">nik.and.GroupDelitionTest</node>
-    <node x="214.0" y="477.0">nik.and.GroupCreationTest</node>
+    <node x="498.0" y="55.0">nik.and.appmanager.SessionHelper</node>
+    <node x="224.33333333333337" y="547.0">nik.and.tests.TestBase</node>
+    <node x="334.83333333333337" y="694.0">nik.and.tests.GroupDelitionTest</node>
+    <node x="116.83333333333337" y="694.0">nik.and.tests.GroupCreationTest</node>
+    <node x="0.0" y="55.0">nik.and.appmanager.NavigationHelper</node>
+    <node x="182.83333333333337" y="268.0">nik.and.appmanager.ApplicationManager</node>
+    <node x="246.0" y="0.0">nik.and.appmanager.GroupHelper</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="nik.and.GroupDelitionTest" target="nik.and.TestBase">
-      <point x="-48.5" y="-26.0" />
-      <point x="48.5" y="452.0" />
-      <point x="116.37499999999999" y="452.0" />
-      <point x="-88.125" y="213.5" />
+    <edge source="nik.and.tests.TestBase" target="nik.and.appmanager.ApplicationManager">
+      <point x="49.5" y="-48.5" />
+      <point x="372.83333333333337" y="522.0" />
+      <point x="393.58333333333337" y="522.0" />
+      <point x="70.25" y="114.5" />
     </edge>
-    <edge source="nik.and.GroupCreationTest" target="nik.and.TestBase">
-      <point x="49.5" y="-26.0" />
-      <point x="362.5" y="452.0" />
-      <point x="292.625" y="452.0" />
-      <point x="88.125" y="213.5" />
+    <edge source="nik.and.tests.GroupCreationTest" target="nik.and.tests.TestBase">
+      <point x="-49.5" y="-26.0" />
+      <point x="166.33333333333337" y="669.0" />
+      <point x="249.08333333333337" y="669.0" />
+      <point x="-74.25" y="48.5" />
+    </edge>
+    <edge source="nik.and.appmanager.ApplicationManager" target="nik.and.appmanager.NavigationHelper">
+      <point x="-52.6875" y="-114.5" />
+      <point x="270.64583333333337" y="228.0" />
+      <point x="188.33333333333331" y="228.0" />
+      <point x="75.33333333333331" y="49.0" />
+    </edge>
+    <edge source="nik.and.tests.GroupDelitionTest" target="nik.and.tests.TestBase">
+      <point x="48.5" y="-26.0" />
+      <point x="480.33333333333337" y="669.0" />
+      <point x="397.58333333333337" y="669.0" />
+      <point x="74.25" y="48.5" />
+    </edge>
+    <edge source="nik.and.appmanager.ApplicationManager" target="nik.and.appmanager.GroupHelper">
+      <point x="-17.5625" y="-114.5" />
+      <point x="305.77083333333337" y="248.0" />
+      <point x="284.6666666666667" y="248.0" />
+      <point x="-77.33333333333331" y="104.0" />
+    </edge>
+    <edge source="nik.and.appmanager.ApplicationManager" target="nik.and.appmanager.SessionHelper">
+      <point x="122.9375" y="-114.5" />
+      <point x="446.27083333333337" y="248.0" />
+      <point x="653.25" y="248.0" />
+      <point x="51.75" y="49.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="44.166666666666686" y="356.05555555555554" />
-  <SelectedNodes>
-    <node>nik.and.TestBase</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="313.0" y="99.5" />
+  <SelectedNodes />
   <Categories>
+    <Category>Methods</Category>
     <Category>Fields</Category>
     <Category>Constructors</Category>
-    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

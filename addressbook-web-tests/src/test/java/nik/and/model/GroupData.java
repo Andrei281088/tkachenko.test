@@ -1,4 +1,4 @@
-package nik.and;
+package nik.and.model;
 
 public class GroupData {
     private final String name;

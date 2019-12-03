@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.netbeans.api:org-openide-util-ui:RELEASE112">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.api/org-openide-util-ui/RELEASE112/7d9af55fc5e39eb6bb9c7892ef0b0bc281095d39/org-openide-util-ui-RELEASE112.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.api/org-openide-util-ui/RELEASE112/e0c532662a38da201adcf4e2147de6493b1f348/org-openide-util-ui-RELEASE112-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

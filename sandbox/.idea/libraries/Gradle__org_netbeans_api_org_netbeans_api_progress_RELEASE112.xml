@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.netbeans.api:org-netbeans-api-progress:RELEASE112">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.api/org-netbeans-api-progress/RELEASE112/3880297ee47d6b7ea3c8a2b4f462d04e0d487272/org-netbeans-api-progress-RELEASE112.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.api/org-netbeans-api-progress/RELEASE112/6ad3bad7b1a583563a22b8ab7920478c5244de0d/org-netbeans-api-progress-RELEASE112-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.netbeans.api:org-netbeans-api-annotations-common:RELEASE112">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.api/org-netbeans-api-annotations-common/RELEASE112/74f0c0f2e2f8e95fd0efd38c7b1fbd9007268b15/org-netbeans-api-annotations-common-RELEASE112.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.api/org-netbeans-api-annotations-common/RELEASE112/4a643be6ac9803bb03efc1d59dc4d959a98d2963/org-netbeans-api-annotations-common-RELEASE112-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

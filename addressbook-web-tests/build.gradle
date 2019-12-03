@@ -8,5 +8,18 @@ repositories{
 dependencies{
     compile 'org.testng:testng:7.0.0'
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-3'
+    compile 'com.opera:operadriver:1.5'
+    implementation 'org.seleniumhq.selenium:selenium-opera-driver:3.0.1'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-opera-driver
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-opera-driver', version: '4.0.0-alpha-1'
+
+    // https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
+    compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.11.0'
+
+    // https://mvnrepository.com/artifact/org.netbeans.api/org-openide-explorer
+    compile group: 'org.netbeans.api', name: 'org-openide-explorer', version: 'RELEASE112'
+
+    compile 'org.seleniumhq.selenium:selenium-ie-driver:3.141.5'
+
 
 }

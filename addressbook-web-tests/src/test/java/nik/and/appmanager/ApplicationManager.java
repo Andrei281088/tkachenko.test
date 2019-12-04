@@ -42,7 +42,7 @@ public class ApplicationManager {
         }
 
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
         contactHelper = new ContactHelper(driver);

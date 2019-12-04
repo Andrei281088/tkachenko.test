@@ -2,7 +2,6 @@ package nik.and.tests;
 
 import nik.and.model.ContactData;
 import org.testng.annotations.Test;
-import nik.and.model.GroupData;
 
 public class ContactCreationTest extends TestBase {
     @Test

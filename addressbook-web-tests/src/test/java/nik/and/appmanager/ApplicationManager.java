@@ -21,6 +21,7 @@ public class ApplicationManager {
     private SessionHelper sessionHelper;
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
+    private ContactHelper contactHelper;
     private String browser;
 
     public ApplicationManager(String browser) {
@@ -44,6 +45,7 @@ public class ApplicationManager {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
+        contactHelper = new ContactHelper(driver);
         navigationHelper = new NavigationHelper(driver);
         sessionHelper = new SessionHelper(driver);
         sessionHelper.login("admin", "secret");
@@ -57,6 +59,11 @@ public class ApplicationManager {
     public void stop() {
         driver.quit();
     }
+
+    public ContactHelper getContactHelper(){
+        return contactHelper;
+    }
+
 
     public GroupHelper getGroupHelper() {
         return groupHelper;

@@ -44,4 +44,8 @@ public class ContactHelper extends HelperBase {
         click(By.name("update"));
     }
 
+    public int getContactCount(){
+        return driver.findElements(By.name("selected[]")).size();
+    }
+
 }
